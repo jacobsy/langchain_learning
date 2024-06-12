@@ -2,8 +2,6 @@
  调用百度千帆大模型，生成简单文本
 '''
 
-import os
-
 from langchain_community.chat_models import QianfanChatEndpoint
 from langchain_core.language_models.chat_models import HumanMessage
 
